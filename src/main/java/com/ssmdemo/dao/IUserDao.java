@@ -7,7 +7,7 @@ import java.util.List;
 public interface IUserDao {
 
     User selectUser(long id);
-
+	// add a remark
     List<User> selectUserByusername(String username);
 
 }
