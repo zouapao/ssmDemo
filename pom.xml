@@ -84,11 +84,11 @@
       <version>1.3.1</version>
     </dependency>
 
-    <!-- Spring -->
+    <!-- Spring相关 -->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-core</artifactId>
-      <version>${spring.version}</version>
+      <version>${spring.version}</version> 
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
@@ -128,6 +128,7 @@
 
 
     <!-- JSTL -->
+	<!-- JSTL--增加 -->
     <dependency>
       <groupId>javax.servlet</groupId>
       <artifactId>jstl</artifactId>

@@ -37,7 +37,7 @@ public class UserController {
     public void test(HttpServletRequest request, HttpServletResponse response) throws IOException {
         request.setCharacterEncoding("UTF-8");
         response.setCharacterEncoding("UTF-8");
-        response.getWriter().write("和啊哈");
+        response.getWriter().write("和啊哈--练习");
         response.getWriter().flush();
         response.getWriter().close();
     }
